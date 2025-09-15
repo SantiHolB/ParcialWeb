@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src = "./script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Erica+One&family=Kavoon&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Dinosaurs for curious people</title>
+</head>
+<body>
+    <div class = "Container_Titulo">
+        <div class = "Titulo">
+            <h1>Dinosaurs for curious people</h1>
+        </div>
+    </div>
+
+    <div class = "general">
+
+        <div class = "general2">
+            <div id = "imagen"></div>
+        </div>
+
+        <div class = "general3">
+            <div class = "contenido">
+                <div class = "nombre">
+                    <h2>Which dinosaur are you thinking of?</h2>
+                </div>
+
+                <input type = "text" name = "input_dino" id = "input_dino">
+                <button id = "button_search" onclick="valorInput()">Search</button>
+                
+                <div class = "Descripción">
+                    <div id = "datos" class = "datos">
+                    </div>
+                    <div id = "informacion" class = "informacion">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
